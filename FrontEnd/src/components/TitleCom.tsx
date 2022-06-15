@@ -26,7 +26,7 @@ export default function TitleCom() {
           fontFamily: 'Josefin Sans',
         }}
       >
-        sellardoor
+        文刀明
       </Col>
       <Col
         xs={{ span: 24 }}
@@ -45,7 +45,7 @@ export default function TitleCom() {
           fontFamily: 'Josefin Sans',
         }}
       >
-        sellardoor
+        文刀明
       </Col>
     </Row>
   );

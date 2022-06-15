@@ -45,7 +45,7 @@ export const INSTAGRAM: string[] = [
  * @dev http://localhost:8000
  * @prod http://sellardoor.cn
  */
-export const LOGINLOCALPROD: string = 'http://sellardoor.cn';
+export const LOGINLOCALPROD: string = 'http://localhost:8000/';
 
 /**
  * @description github oauth地址
@@ -53,7 +53,7 @@ export const LOGINLOCALPROD: string = 'http://sellardoor.cn';
  * @prod `https://github.com/login/oauth/authorize?client_id=d094df5206d99f67e373&redirect_uri=http://sellardoor.cn/`
  * @client_id d094df5206d99f67e373
  */
-export const GITHUBOAUTH: string = `https://github.com/login/oauth/authorize?client_id=d094df5206d99f67e373&redirect_uri=http://sellardoor.cn/`;
+// export const GITHUBOAUTH: string = `https://github.com/login/oauth/authorize?client_id=d094df5206d99f67e373`;
 
 interface AboutBlogType {
   date: string;

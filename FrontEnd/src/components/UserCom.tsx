@@ -47,7 +47,6 @@ const Login: React.FC<LoginPorps> = props => {
             props.closeModal();
             props.dispatch({ type: 'users/initUser', payload: res.result });
             localStorage.setItem('login', JSON.stringify(res.result));
-            window.open(LOGINLOCALPROD, '_self');
           } else {
             message.error('登录失败');
           }

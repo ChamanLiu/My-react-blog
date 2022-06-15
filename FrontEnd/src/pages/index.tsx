@@ -60,7 +60,7 @@ const Index: React.FC<Iprops> = props => {
             marginBottom: 20,
           }}
         >
-          LIFESTYLE
+          座右铭
         </div>
         <div
           style={{
@@ -84,7 +84,7 @@ const Index: React.FC<Iprops> = props => {
             fontFamily: `'Josefin Sans', sans-serif`,
           }}
         >
-          TALK IS CHEAP
+          此安处是吾乡
         </div>
         <div
           style={{
@@ -94,7 +94,7 @@ const Index: React.FC<Iprops> = props => {
             marginBottom: 30,
           }}
         >
-          SHOW ME THE CODE
+          CODE AND SPORT
         </div>
         <div
           style={{
@@ -103,7 +103,7 @@ const Index: React.FC<Iprops> = props => {
             fontFamily: `'Josefin Sans', sans-serif`,
           }}
         >
-          17 JUNE 2020
+          1314
         </div>
       </div>
       <Row style={{ paddingTop: 100, background: '#fff', paddingBottom: 100 }}>
