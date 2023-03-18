@@ -46,7 +46,7 @@ const errorHandler = (error: any) => {
 };
 
 const request = extend({
-  prefix: 'http://192.168.10.7:8081',
+  prefix: 'http://192.168.31.70:8082',
   // errorHandler,
   // 默认错误处理
   // credentials: 'include', // 默认请求是否带上cookie
